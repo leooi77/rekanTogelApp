@@ -1,0 +1,7 @@
+cordova plugin add cordova-hot-code-push-plugin
+
+npm install -g cordova-hot-code-push-cli
+
+cordova-hcp init
+
+cordova-hcp build [www_directory]
