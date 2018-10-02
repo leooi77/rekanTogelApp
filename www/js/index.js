@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         $(".wrapper").hide()
+        console.log("initialize!"); 
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -27,6 +28,7 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
+        console.log("bindEvents!"); 
         document.addEventListener('deviceready', this.onDeviceReady, false);
         document.addEventListener('chcp_updateIsReadyToInstall', this.chcp_updateIsReadyToInstall, false);
         document.addEventListener('chcp_updateLoadFailed', this.chcp_updateLoadFailed, false);
@@ -43,6 +45,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        console.log("deviceready!"); 
        // document.getElementById('myFetchBtn').addEventListener('click', app.checkForUpdate);
         app.checkForUpdate()
     },
@@ -143,7 +146,7 @@ var app = {
     },
     checkForUpdate: function() {
         var options = {
-            'config-file': 'https://ads.salescvsejalan.com/update/indohalo/chcp.json',
+            'config-file': 'https://ads.salescvsejalan.com/update/rekantogel/chcp.json',
             'request-headers': {
               'foo': 'bar'
             }

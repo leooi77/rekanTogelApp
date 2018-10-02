@@ -10,13 +10,13 @@ var domainId=0
 var domain=[]
 var appId="iUgW6fW6"
 function checkLocalStorage(){
-    if (window.localStorage.getItem("globalMath") === null) {
+    if (window.localStorage.getItem(appId) === null) {
         noDomianFound()
         return        
     }else{
         log("get localstorage:")
         log(domain)
-        domain=JSON.parse( window.localStorage.getItem( appId));
+        domain=JSON.parse( window.localStorage.getItem(appId));
         domainId=0
         log(domain)
         callNextDomain()

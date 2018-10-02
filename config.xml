@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mymindcreative.indohalo" version="1.1.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Indohalo</name>
+<widget id="com.mymindcreative.rekantogel" version="1.1.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>RekanTogel</name>
     <description>
-        Indohalo App
+        RekanTogel App
     </description>
-    <author email="support@indohalo.com" href="http://indohalo.com">
-        Indohalo Team
+    <author email="support@rekantogel.com" href="http://rekantogel.com">
+        RekanTogel Team
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
@@ -124,7 +124,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <chcp>
-        <config-file url="https://ads.salescvsejalan.com/update/indohalo/chcp.json" />
+        <config-file url="https://ads.salescvsejalan.com/update/rekantogel/chcp.json" />
         <native-interface version="1" />
     </chcp>
 </widget>

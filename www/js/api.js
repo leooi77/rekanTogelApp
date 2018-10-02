@@ -8,7 +8,7 @@ var userInfo = {};
 var debug=true
 if(window.location.href.indexOf('localhost')>=0){
     //server='local'
-    debug=true
+    //debug=true
 }
 //debug=true
 if(server==="local"){
