@@ -10,7 +10,7 @@ if(window.location.href.indexOf('localhost')>=0){
     //server='local'
     //debug=true
 }
-//debug=true
+debug=true
 if(server==="local"){
     apiPath = "./api_local";
     extension =".php";
@@ -190,6 +190,7 @@ function callDomainApi(domain,callback,data,showLoader){
     for(i in data){
         fd.append( i, data[i] );
     } 
+    
     $.ajax({
       url: "http://"+domain+"/status.json",
       data: fd,

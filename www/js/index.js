@@ -44,8 +44,9 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
         console.log("deviceready!"); 
+        app.receivedEvent('deviceready');
+        
        // document.getElementById('myFetchBtn').addEventListener('click', app.checkForUpdate);
         app.checkForUpdate()
     },

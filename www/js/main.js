@@ -2,13 +2,13 @@
 
 $(document).ready(function () {
    
-    //callApi('ts',checkDomainSuccess,{state:''})
+    //callApi('ts',getTimeStampSuccess,{state:''})
     
     
 });
 var domainId=0
 var domain=[]
-var appId="iUgW6fW6"
+var appId="rPP5uBSL"
 function checkLocalStorage(){
     if (window.localStorage.getItem(appId) === null) {
         noDomianFound()
